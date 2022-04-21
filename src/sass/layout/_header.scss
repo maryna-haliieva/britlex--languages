@@ -1,0 +1,29 @@
+.container__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list__item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--components-color);
+}
+
+.nav-list__item:not(:first-child) {
+    margin-left: 50px;
+  }
+.nav-list__menu {
+    display: block;
+    
+    
+}

@@ -1,0 +1,18 @@
+.button-secondary {
+    display: inline-block;
+    
+    min-width: 312px;
+    min-height: 70px;
+    padding: 20px 56px;
+    
+    cursor: pointer;
+    border: 2px solid var(--components-color);
+    border-radius: 10px;
+    
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.5;
+    
+    background-color: var(--backgroung-main-color);
+    color: var(--accent-color);
+    }
