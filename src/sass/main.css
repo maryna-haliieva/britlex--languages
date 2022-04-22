@@ -1,0 +1,253 @@
+body {
+  font-family: var(--font-family-main);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--backgroung-main-color);
+  color: var(--main-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--accent-color);
+}
+
+.logo_accent {
+  color: var(--logo-accent-color);
+}
+
+.button-secondary {
+  display: inline-block;
+  min-width: 312px;
+  min-height: 70px;
+  padding: 20px 56px;
+  cursor: pointer;
+  border: 2px solid var(--components-color);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--backgroung-main-color);
+  color: var(--accent-color);
+}
+
+.container__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list__item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--components-color);
+}
+
+.nav-list__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-list__menu {
+  display: block;
+}
+
+.container {
+  width: 1338px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 1079px;
+}
+
+.second__title {
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 947px;
+  margin-bottom: 180px;
+  background-color: var(--backgroung-main-color);
+}
+
+.skills__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills__card_speaking, .skills__card_writing, .skills__card_reading, .skills__card_listening {
+  display: block;
+  max-width: 426px;
+  padding-top: 32px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 10px;
+  background-color: var(--backgroung-secondary-color);
+}
+
+.skills__list_speaking {
+  margin-right: 30px;
+}
+
+.skills__card_speaking {
+  padding-bottom: 154px;
+  height: 947px;
+}
+
+.skills__list_writing {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.skills__card_writing {
+  height: 579px;
+  padding-bottom: 32px;
+}
+
+.skills__list_reading {
+  margin-bottom: 30px;
+}
+
+.skills__list_listening {
+  margin-left: auto;
+  margin-top: -337px;
+}
+
+.skills__card_reading {
+  height: 579px;
+  padding-bottom: 32px;
+}
+
+.skills__card_listening {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 882px;
+  max-height: 338px;
+  padding: 32px 18px;
+}
+
+.skills__card_block {
+  display: block;
+  max-width: 324px;
+  margin-right: 114px;
+}
+
+.skills__icon-speaking {
+  margin-bottom: 24px;
+}
+
+.skills__icon_writing {
+  margin-bottom: 24px;
+}
+
+.skills__icon_reading {
+  margin-bottom: 23px;
+}
+
+.skills__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  color: var(--components-color);
+}
+
+.skills__description, .skills__description_speaking {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  max-height: 72px;
+  margin-bottom: 30px;
+  color: var(--main-text-color);
+}
+
+.skills__description_speaking {
+  max-height: 192px;
+}
+
+.skills__btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--backgroung-main-color);
+  min-width: 230px;
+  padding: 15px 52px;
+  background-color: var(--components-color);
+  border: none;
+  border-radius: 10px;
+}
+
+:root {
+  --logo-accent-color: #939393;
+  --accent-color: #000000;
+  --main-text-color: #8F95A5;
+  --components-color: #263238;
+  --nubers-color:#2A3246;
+  --per-month-color: #546269;
+  --backgroung-main-color:#FFFFFF;
+  --backgroung-secondary-color: #F5F5F5;
+  --font-family-main: Poppins, 'sans-serif';
+}
+/*# sourceMappingURL=main.css.map */
