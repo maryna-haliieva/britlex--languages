@@ -16,17 +16,19 @@
   margin-right: 30px;
 }
 
+.pricing-description {
+  padding-top: 31px;
+}
+
 .pricing-description-title {
   font-size: 30px;
   line-height: 1.6;
   font-weight: 600;
   width: 426px;
 
-  color: var(--components-color);
-}
+  margin-bottom: 20px;
 
-.pricing-description {
-  padding-top: 31px;
+  color: var(--components-color);
 }
 
 .pricing-description-text {
@@ -34,4 +36,6 @@
   line-height: 1.5;
 
   color: var(--main-text-color);
+
+  margin-bottom: 30px;
 }
